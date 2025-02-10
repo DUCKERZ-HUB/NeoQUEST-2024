@@ -1,1 +1,1 @@
-# NeoQUEST-2024-
+# NeoQUEST-2024
