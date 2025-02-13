@@ -1,0 +1,121 @@
+html,
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif !important;
+  scrollbar-width: none !important;
+  background-color: #333333;
+  color: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+
+.title {
+  font-size: 24px;
+  color: #c79eed;
+  font-weight: 600;
+}
+
+.login {
+  color: #fff;
+  padding: 20px;
+  transition: 1s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: #c79eed;
+  border-radius: 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTitle {
+  font-size: 30px;
+  color: #c79eed;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.searchBlock {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.input {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #3b1767;
+  outline: none;
+
+}
+
+.button {
+
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 2px solid #3b1767;
+  outline: none;
+  background-color: #c79eed;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.err {
+  color: #fff;
+  text-align: center;
+}
+
+.error {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: red;
+  font-weight: 600;
+  margin-top: 20px;
+}
