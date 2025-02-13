@@ -1,0 +1,6 @@
+version: '3'
+services:
+  ierarchy:
+    build: .
+    ports:
+      - "25555:25555"
