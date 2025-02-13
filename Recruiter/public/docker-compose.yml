@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  python_app:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+
+  php_app:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    ports:
+      - "1636:1636"
