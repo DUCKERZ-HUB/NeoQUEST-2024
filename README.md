@@ -1,4 +1,4 @@
-# PolyWinterCTF
+# NeoQUEST-2024
 
 20 сентября 2024
 
